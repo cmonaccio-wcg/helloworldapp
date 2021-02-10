@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ProductCatalog: View {
+    
     var body: some View {
-        Text("Product Catalog")
+            Text("Products")
     }
 }
 

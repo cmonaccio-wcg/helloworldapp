@@ -21,6 +21,8 @@
 		DC25426925CB5CCA0059AF0B /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25426825CB5CCA0059AF0B /* ProductDetail.swift */; };
 		DC25427425CB5F840059AF0B /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25427325CB5F840059AF0B /* LandingView.swift */; };
 		DC25427B25CB62B10059AF0B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25427A25CB62B10059AF0B /* SearchView.swift */; };
+		DC25428325CC78060059AF0B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25428225CC78060059AF0B /* Menu.swift */; };
+		DC25428825CCC2FE0059AF0B /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25428725CCC2FE0059AF0B /* VisualEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC25420025C8B35B0059AF0B /* helloworldapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworldapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC25420025C8B35B0059AF0B /* helloworldapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = helloworldapp.app; path = "/Users/chrismonaccio/Code/helloworldapp/build/Debug-iphoneos/helloworldapp.app"; sourceTree = "<absolute>"; };
 		DC25420325C8B35B0059AF0B /* helloworldappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldappApp.swift; sourceTree = "<group>"; };
 		DC25420525C8B35B0059AF0B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		DC25420725C8B35D0059AF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC25420A25C8B35D0059AF0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC25420C25C8B35D0059AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC25421125C8B35D0059AF0B /* helloworldappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC25421125C8B35D0059AF0B /* helloworldappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = helloworldappTests.xctest; path = "/Users/chrismonaccio/Code/helloworldapp/build/Debug-iphoneos/helloworldappTests.xctest"; sourceTree = "<absolute>"; };
 		DC25421525C8B35D0059AF0B /* helloworldappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldappTests.swift; sourceTree = "<group>"; };
 		DC25421725C8B35D0059AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC25421C25C8B35D0059AF0B /* helloworldappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC25421C25C8B35D0059AF0B /* helloworldappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = helloworldappUITests.xctest; path = "/Users/chrismonaccio/Code/helloworldapp/build/Debug-iphoneos/helloworldappUITests.xctest"; sourceTree = "<absolute>"; };
 		DC25422025C8B35D0059AF0B /* helloworldappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldappUITests.swift; sourceTree = "<group>"; };
 		DC25422225C8B35D0059AF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC25423E25CAEAFD0059AF0B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -61,6 +63,8 @@
 		DC25426825CB5CCA0059AF0B /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		DC25427325CB5F840059AF0B /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		DC25427A25CB62B10059AF0B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DC25428225CC78060059AF0B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		DC25428725CCC2FE0059AF0B /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,18 +98,7 @@
 				DC25420225C8B35B0059AF0B /* helloworldapp */,
 				DC25421425C8B35D0059AF0B /* helloworldappTests */,
 				DC25421F25C8B35D0059AF0B /* helloworldappUITests */,
-				DC25420125C8B35B0059AF0B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		DC25420125C8B35B0059AF0B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DC25420025C8B35B0059AF0B /* helloworldapp.app */,
-				DC25421125C8B35D0059AF0B /* helloworldappTests.xctest */,
-				DC25421C25C8B35D0059AF0B /* helloworldappUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DC25420225C8B35B0059AF0B /* helloworldapp */ = {
@@ -116,10 +109,12 @@
 				DC25424625CB20500059AF0B /* Products */,
 				DC25420325C8B35B0059AF0B /* helloworldappApp.swift */,
 				DC25420525C8B35B0059AF0B /* AppView.swift */,
+				DC25428225CC78060059AF0B /* Menu.swift */,
 				DC25420725C8B35D0059AF0B /* Assets.xcassets */,
 				DC25420C25C8B35D0059AF0B /* Info.plist */,
 				DC25420925C8B35D0059AF0B /* Preview Content */,
 				DC25427325CB5F840059AF0B /* LandingView.swift */,
+				DC25428725CCC2FE0059AF0B /* VisualEffectView.swift */,
 			);
 			path = helloworldapp;
 			sourceTree = "<group>";
@@ -297,7 +292,7 @@
 				Base,
 			);
 			mainGroup = DC2541F725C8B35B0059AF0B;
-			productRefGroup = DC25420125C8B35B0059AF0B /* Products */;
+			productRefGroup = DC2541F725C8B35B0059AF0B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -344,6 +339,8 @@
 				DC25426425CB5CBD0059AF0B /* ProductList.swift in Sources */,
 				DC25426925CB5CCA0059AF0B /* ProductDetail.swift in Sources */,
 				DC25425F25CB5CA80059AF0B /* ProductCatalog.swift in Sources */,
+				DC25428825CCC2FE0059AF0B /* VisualEffectView.swift in Sources */,
+				DC25428325CC78060059AF0B /* Menu.swift in Sources */,
 				DC25420625C8B35B0059AF0B /* AppView.swift in Sources */,
 				DC25425425CB4DF60059AF0B /* ProductCard.swift in Sources */,
 				DC25423F25CAEAFD0059AF0B /* Product.swift in Sources */,
